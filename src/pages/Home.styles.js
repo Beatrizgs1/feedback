@@ -14,7 +14,7 @@ h1{
     text-align: center;
 }
 
-p{
+    p{
     font-size: 1.5rem;
     line-height: 2.4rem; 
     color: ${props=> props.theme.textColor};
@@ -46,7 +46,6 @@ p{
     margin: 1.3rem auto 3.2rem;
 }
 `
-
 export const IconContainer = styled.div`
    background: ${props => props.theme.feedbackButtonColor};
    height: 4.8rem;
@@ -82,17 +81,17 @@ export const ButtonContainer = styled.div`
 
         &:focus{
             color: ${props => props.theme.white};
-            background: ${props => props.theme.submitButtonText};
+            background: ${props => props.theme.feedbackButtonText};
 
         &:hover{
             color: ${props => props.theme.white};
             background: ${props => props.theme.submitButtonColor};
 
         }
+    }
 }
 `
-
-export const ResulContainer= styled.p`
+export const ResulContainer = styled.p`
       padding: 0.4rem 1.8rem;
       background: ${props => props.theme.feedbackButtonColor} ;
       width: fit-content;
