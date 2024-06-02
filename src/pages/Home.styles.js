@@ -78,17 +78,18 @@ export const ButtonContainer = styled.div`
         line-height: 2.4rem;
         cursor: pointer;
         transition: all .4s;
-
+    
         &:focus{
             color: ${props => props.theme.white};
             background: ${props => props.theme.feedbackButtonText};
+        }
 
         &:hover{
             color: ${props => props.theme.white};
             background: ${props => props.theme.submitButtonColor};
 
         }
-    }
+   
 }
 `
 export const ResulContainer = styled.p`
